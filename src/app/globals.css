@@ -17,13 +17,55 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #000;
+  background: #fff;
+}
+
+.side-wrapper {
+  @apply max-w-[1200px] px-9 mx-auto;
+}
+
+.bold-6 {
+  @apply font-bold text-[20px] leading-[28px] tracking-[-0.1px];
+}
+
+.semibold-3 {
+  @apply font-semibold text-[14px] leading-[20px];
+}
+
+.semibold-2 {
+  @apply font-semibold text-[12px] leading-[16px];
+}
+
+.semibold-4 {
+  @apply font-semibold text-[16px] leading-[24px];
+}
+
+.medium-3 {
+  @apply font-medium text-[14px] leading-[20px];
+}
+
+.medium-2 {
+  @apply font-medium text-[12px] leading-[16px];
+}
+
+.medium-4 {
+  @apply font-medium text-[16px] leading-[24px];
+}
+
+.medium-5 {
+  @apply font-medium text-[18px] leading-[28px];
+}
+
+.regular-2 {
+  @apply font-normal text-[12px] leading-[16px];
+}
+.regular-3 {
+  @apply font-normal text-[14px] leading-[20px];
+}
+
+.regular-4 {
+  @apply font-normal text-[16px] leading-[24px];
 }
 
 @layer utilities {
