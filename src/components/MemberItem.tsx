@@ -18,15 +18,15 @@ const MemberItem = (props: any) => {
       </div>
 
       <div className='flex items-center'>
-        <div className='h-8 w-8 rounded-[6px] flex items-center justify-center bg-bg-alpha-3'>
+        <button className='h-8 w-8 rounded-[6px] flex items-center justify-center bg-bg-alpha-3'>
           <MinusIcon />
-        </div>
+        </button>
         <div className='semibold-4 text-neutral-12 w-[32px] text-center ml-2'>
           {count}
         </div>
-        <div className='h-8 w-8 rounded-[6px] flex items-center justify-center bg-bg-alpha-3 ml-2'>
+        <button className='h-8 w-8 rounded-[6px] flex items-center justify-center bg-bg-alpha-3 ml-2'>
           <PlusIcon />
-        </div>
+        </button>
       </div>
     </div>
   );

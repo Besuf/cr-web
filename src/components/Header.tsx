@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <div className='side-wrapper h-[56px] flex items-center justify-center relative'>
-      <div className='absolute left-9 right-9 top-0 bottom-0 flex items-center'>
+    <div className='side-wrapper h-[56px] flex items-center justify-center relative bg-white rounded-t-[16px]'>
+      <div className='absolute left-5 right-9 top-0 bottom-0 flex items-center'>
         <div>
           <Image
             src='/home/logo.svg'

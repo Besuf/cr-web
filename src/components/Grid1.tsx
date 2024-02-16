@@ -2,6 +2,8 @@ import React from 'react';
 import Button from './Button';
 import PeoplesIcon from './icons/PeopleIcon';
 import MemberItem from './MemberItem';
+import { BackIcon } from './icons/BackIcon';
+import ButtonFilled from './ButtonFilled';
 
 const Grid1 = () => {
   return (
@@ -47,6 +49,15 @@ const Grid1 = () => {
             />
           </li>
         </ul>
+      </div>
+
+      <div className='flex items-center justify-between mt-8'>
+        <button className='flex items-center'>
+          <BackIcon />
+          <span className='block semibold-3'>Back</span>
+        </button>
+
+        <ButtonFilled>Continue</ButtonFilled>
       </div>
     </div>
   );

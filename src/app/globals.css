@@ -18,11 +18,11 @@
 
 body {
   color: #000;
-  background: #fff;
+  background: #1f2327;
 }
 
 .side-wrapper {
-  @apply max-w-[1200px] px-9 mx-auto;
+  @apply max-w-[1200px] px-9;
 }
 
 .bold-6 {
